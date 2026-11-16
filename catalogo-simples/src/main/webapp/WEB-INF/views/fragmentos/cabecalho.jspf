@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><c:out value="${tituloPagina}"/> · Catálogo Simples</title>
+    <link rel="stylesheet" href="<c:url value='/css/estilo.css'/>">
+</head>
+<body>
+<header class="topo">
+    <div class="conteudo topo-interno">
+        <a class="marca" href="<c:url value='/itens'/>">
+            <span class="marca-icone" aria-hidden="true">▤</span> Catálogo Simples
+        </a>
+        <nav aria-label="Navegação principal">
+            <a href="<c:url value='/itens'/>">Itens</a>
+            <a href="<c:url value='/itens/novo'/>">Novo item</a>
+        </nav>
+    </div>
+</header>
+<main class="conteudo">

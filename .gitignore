@@ -1,0 +1,6 @@
+# Projeto separado, com repositório próprio (github.com/daniloguirra/financas-cidadas)
+financas-cidadas/
+
+# Arquivos compactados
+*.rar
+*.zip
